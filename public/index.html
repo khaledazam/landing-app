@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./output.css">
     <title>Bookmark</title>
 </head>
 <body class="font-Poppins">
     <header>
-        <nav class="container flex items-start py-4 mt-4 sm:mt-12">
+        <nav class="container flex items-center py-4 mt-4 sm:mt-12">
             <div class="py-1">
-                <img src="/public/" alt="" srcset="">
+                <img src="./images/logo-bookmark.svg" alt="">
             </div>
+                <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
+                    <li class="cursor-pointer">Features</li>
+                    <li class="cursor-pointer">pricing</li>
+                    <li class="cursor-pointer">contact</li>
+                    <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">Login</button>
+                </ul>
+                <div class="flex sm:hidden flex-1 justify-end">
+                    <i class="text-2xl fa-solid fa-bars"></i>
+                </div>
         </nav>
     </header>
 </body>
